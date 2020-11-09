@@ -26,16 +26,16 @@
     <h1>Vending Machine</h1>
 
     <form style="margin-bottom: 10px;">
-        <span>1 Rand</span> <input type="text" name="ones" id="ones" placeholder="0" value="0" oninput="tally()"><br>
-        <span>5 Rands</span> <input type="text" name="fives" id="fives" placeholder="0" value="0" oninput="tally()"><br>
-        <span>0.5 Cents</span> <input type="text" name="nickels" id="nickels" placeholder="0" value="0" oninput="tally()"><br>
-        <span>0.10 Cents</span> <input type="text" name="dimes" id="dimes" placeholder="0" value="0" oninput="tally()"><br>
-        <span>0.25 Cents</span> <input type="text" name="quarters" id="quarters" placeholder="0" value="0" oninput="tally()"><br>
+        <span>1 Rand</span> <input type="text" name="ones" id="1 Rand" placeholder="0" value="0" oninput="tally()"><br>
+        <span>5 Rands</span> <input type="text" name="5 Rands" id="5 Rands" placeholder="0" value="0" oninput="tally()"><br>
+        <span>0.5 Cents</span> <input type="text" name="nickels" id="0.5 Cents" placeholder="0" value="0" oninput="tally()"><br>
+        <span>0.10 Cents</span> <input type="text" name="dimes" id="0.10 Cents" placeholder="0" value="0" oninput="tally()"><br>
+        <span>0.25 Cents</span> <input type="text" name="quarters" id="0.25 Cents" placeholder="0" value="0" oninput="tally()"><br>
     </form>
 
     <button value="Coke" id="coke" onclick="dispenseSoda(0)">Coke</button>
-    <button value="Moxie" id="moxie" onclick="dispenseSoda(1)">Sprite</button>
-    <button value="Fresca" id="fresca" onclick="dispenseSoda(2)">Lemon Twist</button>
+    <button value="Sprite" id="sprite" onclick="dispenseSoda(1)">Sprite</button>
+    <button value="Lemon Twist" id="lemon twist" onclick="dispenseSoda(2)">Lemon Twist</button>
     <button value="TaB" id="tab" onclick="dispenseSoda(3)" style="margin-bottom: 10px;">Tab</button> Recent Purchases
     <br>
     <button value="Cancel" id="cancel" onclick="cancel()">Cancel</button>
