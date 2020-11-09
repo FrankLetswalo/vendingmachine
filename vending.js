@@ -121,7 +121,7 @@ function dispenseSoda(soda) {
 function cancel() {
     getTotal()
     if (totalPaid > 0) {
-        msg = "Transaction cancelled. $" + totalPaid.toFixed(2) + " has been returned to the coin return."
+        msg = "Transaction cancelled. R" + totalPaid.toFixed(2) + " has been returned to the coin return."
 
         clearForm()
         clearTally()
