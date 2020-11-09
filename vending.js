@@ -19,11 +19,11 @@ const price = 1.30
 
 // Calculates how much money was entered
 function getTotal() {
-    var curreny_fives = Number(document.getElementById("fives").value)
-    var currency_ones = Number(document.getElementById("ones").value)
-    var currency_quarters = Number(document.getElementById("quarters").value)
-    var currency_nickels = Number(document.getElementById("nickels").value)
-    var currency_dimes = Number(document.getElementById("dimes").value)
+    var curreny_fives = Number(document.getElementById("5 Rands").value)
+    var currency_ones = Number(document.getElementById("1 Rand").value)
+    var currency_quarters = Number(document.getElementById("0.25 Cents").value)
+    var currency_nickels = Number(document.getElementById("0.5 Cents").value)
+    var currency_dimes = Number(document.getElementById("0.10 Cents").value)
     
     if (currency_ones > 0) {
         currency_ones = currency_ones * currency_one
@@ -63,11 +63,11 @@ function clearTally() {
 
 // Resets the form back to 0
 function clearForm() {
-    document.getElementById("fives").value = 0
-    document.getElementById("ones").value = 0
-    document.getElementById("quarters").value = 0
-    document.getElementById("nickels").value = 0
-    document.getElementById("dimes").value = 0
+    document.getElementById("5 Rands").value = 0
+    document.getElementById("1 Rand").value = 0
+    document.getElementById("0.25 Cents").value = 0
+    document.getElementById("0.5 Cents").value = 0
+    document.getElementById("0.10 Cents").value = 0
 }
 
 // Calculates the difference from total paid from price
