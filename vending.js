@@ -91,14 +91,14 @@ function dispenseSoda(soda) {
     change = calculateChange()
 
     if (change < 0) {
-        msg = "You did not pay enough. $" + totalPaid.toFixed(2) + " has been returned to the coin return."
+        msg = "You did not pay enough. R" + totalPaid.toFixed(2) + " has been returned to the coin return."
         totalPaid = 0
         change = 0
         clearForm()
         clearTally()
         messageEl.innerHTML = msg
     } else if (change > 0) {
-        msg = selectedSoda + " has been dispensed. $" + change + " has been returned to the coin return."
+        msg = selectedSoda + " has been dispensed. R" + change + " has been returned to the coin return."
         totalPaid = 0
         change = 0
         clearForm()
